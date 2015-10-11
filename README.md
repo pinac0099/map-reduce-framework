@@ -43,6 +43,12 @@ map function.
 
 A standard word count example.
 
+##### Compiling and Running Instructions
+```
+javac src/WordCounter.java
+java src/WordCounter /TestFiles/WordCounter/ /TestFiles/out.txt numOfMappers numOfReducers
+```
+
 ##### Test Case
 
 * File<sub>1</sub>: `"file one file"`
@@ -72,6 +78,12 @@ two 1
 The MapReduce framework could be used in order to convert a graph in edge list
 format (distributed across a number of separate files) into adjacency list
 format.
+
+##### Compiling and Running Instructions
+```
+javac src/GraphConverter.java
+java src/GraphConverter /TestFiles/GraphConverter/ /TestFiles/out.txt numOfMappers numOfReducers
+```
 
 ##### Test Case
 
@@ -108,6 +120,12 @@ be used in order to detect common friends in a social network, by providing an
 output file where entries would follow the following format:
 
 `friend1 friend2 # commonfriend1 commonfriend2...`
+
+##### Compiling and Running Instructions
+```
+javac src/CommonFriendsDetector.java
+java src/CommonFriendsDetector /TestFiles/CommonFriendsDetector/ /TestFiles/out.txt numOfMappers numOfReducers
+```
 
 ##### Test Case
 
@@ -147,6 +165,12 @@ person in the social network appears in, by providing an output file where
 entries would follow the following format:
 
 `person number_of_triangles_person_is_in`
+
+##### Compiling and Running Instructions
+```
+javac src/TriangleCounter.java
+java src/TriangleCounter /TestFiles/TriangleCounter/ /TestFiles/out.txt numOfMappers numOfReducers
+```
 
 ##### Test Case
 
