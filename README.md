@@ -43,13 +43,13 @@ map function.
 
 A standard word count example.
 
-##### Compiling and Running Instructions
+###### Compiling and Running Instructions
 ```
 javac src/WordCounter.java
 java src/WordCounter /TestFiles/WordCounter/ /TestFiles/out.txt numOfMappers numOfReducers
 ```
 
-##### Test Case
+###### Test Case
 
 * File<sub>1</sub>: `"file one file"`
 * File<sub>2</sub>: `"file two file"`
@@ -60,7 +60,7 @@ java src/WordCounter /TestFiles/WordCounter/ /TestFiles/out.txt numOfMappers num
 * File<sub>7</sub>: `"file seven file"`
 * File<sub>8</sub>: `"file eight file"`
 
-##### Output
+###### Output
 ```
 eight 1
 file 16
@@ -79,13 +79,13 @@ The MapReduce framework could be used in order to convert a graph in edge list
 format (distributed across a number of separate files) into adjacency list
 format.
 
-##### Compiling and Running Instructions
+###### Compiling and Running Instructions
 ```
 javac src/GraphConverter.java
 java src/GraphConverter /TestFiles/GraphConverter/ /TestFiles/out.txt numOfMappers numOfReducers
 ```
 
-##### Test Case
+###### Test Case
 
 * File<sub>1</sub>: `(0,1) (2,0) (3,0)`
 * File<sub>2</sub>: `(3,1) (4,0)`
@@ -96,7 +96,7 @@ java src/GraphConverter /TestFiles/GraphConverter/ /TestFiles/out.txt numOfMappe
 * File<sub>7</sub>: `(8,4) (1,8)`
 * File<sub>8</sub>: `(9,0) (2,5)`
 
-##### Output
+###### Output
 ```
 0 # 1 2 3 4 5 6 9
 1 # 0 3 8
@@ -121,13 +121,13 @@ output file where entries would follow the following format:
 
 `friend1 friend2 # commonfriend1 commonfriend2...`
 
-##### Compiling and Running Instructions
+###### Compiling and Running Instructions
 ```
 javac src/CommonFriendsDetector.java
 java src/CommonFriendsDetector /TestFiles/CommonFriendsDetector/ /TestFiles/out.txt numOfMappers numOfReducers
 ```
 
-##### Test Case
+###### Test Case
 
 * File<sub>1</sub>: `(0,1) (2,0) (3,0)`
 * File<sub>2</sub>: `(3,1) (4,0)`
@@ -138,7 +138,7 @@ java src/CommonFriendsDetector /TestFiles/CommonFriendsDetector/ /TestFiles/out.
 * File<sub>7</sub>: `(8,4) (1,8)`
 * File<sub>8</sub>: `(9,0) (2,5)`
 
-##### Output
+###### Output
 ```
 0 1 # 3           |       1 7 # 3           |       3 9 # 0
 0 2 # 5           |       1 8 # 3           |       4 5 # 0
@@ -166,13 +166,13 @@ entries would follow the following format:
 
 `person number_of_triangles_person_is_in`
 
-##### Compiling and Running Instructions
+###### Compiling and Running Instructions
 ```
 javac src/TriangleCounter.java
 java src/TriangleCounter /TestFiles/TriangleCounter/ /TestFiles/out.txt numOfMappers numOfReducers
 ```
 
-##### Test Case
+###### Test Case
 
 * File<sub>1</sub>: `(0,1) (2,0) (3,0)`
 * File<sub>2</sub>: `(3,1) (4,0)`
@@ -183,7 +183,7 @@ java src/TriangleCounter /TestFiles/TriangleCounter/ /TestFiles/out.txt numOfMap
 * File<sub>7</sub>: `(8,4) (1,8)`
 * File<sub>8</sub>: `(9,0) (2,5)`
 
-##### Output
+###### Output
 ```
 0 5
 1 2
