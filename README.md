@@ -1,6 +1,6 @@
 # Uppsala University
 ## Department of Information Technology
-#### Language Abstractions for Concurrent and Parallel Programming
+### Language Abstractions for Concurrent and Parallel Programming (LACPP)
 
 > <hr>
 
