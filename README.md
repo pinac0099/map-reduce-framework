@@ -6,7 +6,7 @@
 
 ### Description
 
-This project introduces a MapReduce framework in Java, implementing the following generic behavior:
+This project introduces a **MapReduce** framework in **Java**, implementing the following generic behavior:
 
 Four input parameters are provided through the command line:
 
