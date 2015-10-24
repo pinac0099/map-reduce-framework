@@ -2,7 +2,7 @@
 ## Department of Information Technology
 ### Language Abstractions for Concurrent and Parallel Programming
 
-<hr/>
+> <hr>
 
 ### Description
 
