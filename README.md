@@ -1,4 +1,10 @@
-# Description
+# Uppsala University
+## Department of Information Technology
+### Language Abstractions for Concurrent and Parallel Programming
+
+<hr/>
+
+### Description
 
 This project introduces a MapReduce framework in Java, implementing the following generic behavior:
 
@@ -37,9 +43,9 @@ map function.
 
 <hr/>
 
-# Examples
+### Examples
 
-## WordCounter
+#### WordCounter
 
 A standard word count example.
 
@@ -73,7 +79,7 @@ three 1
 two 1
 ```
 
-## GraphConverter
+#### GraphConverter
 
 The MapReduce framework could be used in order to convert a graph in edge list
 format (distributed across a number of separate files) into adjacency list
@@ -110,7 +116,7 @@ java src/GraphConverter /TestFiles/GraphConverter/ /TestFiles/out.txt numOfMappe
 9 # 0
 ```
 
-## CommonFriendsDetector
+#### CommonFriendsDetector
 
 A social network is an undirected graph where nodes represent people and
 edges friendships. Two people `a` and `b` in a social network have a common
@@ -155,7 +161,7 @@ java src/CommonFriendsDetector /TestFiles/CommonFriendsDetector/ /TestFiles/out.
 1 6 # 0 3         |       3 8 # 1 4         |       7 8 # 3
 ```
 
-## TriangleCounter
+#### TriangleCounter
 
 In undirected graphs, a triangle is a collection of 3 nodes that each one is
 connected with the other two. For example, `a`, `b`, and `c` form a triangle if
