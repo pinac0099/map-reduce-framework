@@ -27,8 +27,6 @@ indexes each key (String) to the final value (also String).
 
 Finally, an output file is created containing the final key-value pairs.
 
-<hr/>
-
 The framework could be used by implementing the following functions:
 
 * `void map(final File fileEntry, Map<String, ArrayList<String>> map) {}`
@@ -41,7 +39,7 @@ initially empty.
 Reduce function is applied to the key-value pairs which were produced by the
 map function.
 
-<hr/>
+> <hr>
 
 ### Examples
 
