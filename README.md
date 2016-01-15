@@ -1,10 +1,4 @@
-# Uppsala University
-## Department of Information Technology
-### Language Abstractions for Concurrent and Parallel Programming (LACPP)
-
-> <hr>
-
-### Description
+# Description
 
 This project introduces a **MapReduce** framework in **Java**, implementing the following generic behavior:
 
@@ -41,7 +35,7 @@ map function.
 
 > <hr>
 
-### Examples
+# Examples
 
 #### WordCounter
 
