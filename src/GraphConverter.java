@@ -2,8 +2,6 @@
 * GraphConverter example
 *
 * @author Eleftherios Anagnostopoulos
-* @since 2014-12-15
-*
 */
 
 import java.io.File;
